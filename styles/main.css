@@ -12,6 +12,24 @@
 .navbar{
   height: 80px;
   width: 100%;
-  background: rgba (0,0,0,0.4);
+  background: rgba(0,0,0,0.4);
 }
 
+.navbar ul{
+  float:right;
+  margin-right: 20px;
+}
+
+.navbar ul li{
+  list-style: none;
+  margin: 0 8px;
+  display:inline-block;
+  line-height: 80px;
+}
+
+.navbar ul li a{
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
