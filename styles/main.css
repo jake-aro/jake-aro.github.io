@@ -1,15 +1,10 @@
-body {
-  margin: 5px;
-  padding: 0px;
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  color:black;
+*{
+  padding: 0;
+  margin: 0;
 }
 
-.navlist a{
-  display: inline-block;
-  
-}
-
-.navlist li{
-  list-style: none;
+.wrapper{
+  background: url(road.jpg) no-repeat;
+  background-size: cover;
+  height: 100vh;
 }
