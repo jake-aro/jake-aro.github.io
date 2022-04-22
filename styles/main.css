@@ -1,0 +1,14 @@
+body {
+  margin: 5px;
+  padding: 0px;
+  font-family:'Courier New', Courier, monospace;
+  color:black;
+
+}
+navbar {
+  display: inline;
+  position:relative;
+  float: right;
+  padding: 20px;
+
+}
