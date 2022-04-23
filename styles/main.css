@@ -3,9 +3,16 @@
   margin: 0;
 }
 
+a{
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+
 .wrapper{
-  background: url(http://jake-aro.github.io/images/road.jpg) no-repeat;
+  background: url(../images/road.jpg) no-repeat;
   background-size: cover;
+  background-position: center;
   height: 100vh;
 }
 
@@ -15,16 +22,24 @@
   background: rgba(0,0,0,0.4);
 }
 
+.logo{
+  width: 70px;
+  height: auto;
+  padding: 5px 90px;
+}
+
 .navbar ul{
   float:right;
-  margin-right: 20px;
+  margin-right: 50px;
+
 }
 
 .navbar ul li{
   list-style: none;
-  margin: 0 8px;
+  margin: 0px 20px;
   display:inline-block;
   line-height: 80px;
+  
 }
 
 .navbar ul li a{
@@ -32,4 +47,79 @@
   color: white;
   font-size: 20px;
   font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar ul li a:hover{
+  background:darkgray;
+  border-bottom-left-radius: 1%;
+}
+
+
+
+.content h1{
+  position: absolute;
+  font-family:'Courier New', Courier, monospace;
+  font-size: 80px;
+  color: whitesmoke;
+  top: 120px;
+  left: 150px;
+  
+}
+
+.content h2{
+  position: absolute;
+  font-family:'Courier New', Courier, monospace;
+  font-size: 50px;
+  color: whitesmoke;
+  top: 195px;
+  left: 175px;
+ 
+}
+
+.content h3{
+  position: absolute;
+  font-family:'Courier New', Courier, monospace;
+  font-size: 30px;
+  color: whitesmoke;
+  top: 270px;
+  left: 280px;
+  
+}
+
+.sprintblogs {
+  position: absolute;
+  font-family: 'Courier New', Courier, monospace;
+  color: whitesmoke;
+  top: 100px;
+  right: 100px;
+  border:5px #ccc solid;
+  padding:20px;
+  margin:20px 0;
+
+}
+
+.sprintblogs ul{
+list-style: none;
+padding: 5px;
+color:whitesmoke;
+
+}
+
+.sprintblogs ul li a:hover{
+  background:darkgray;
+  border-bottom-left-radius: 20%;
+}
+
+#contact {
+  position:absolute;
+  text-align: center;
+  color: whitesmoke;
+  font-family: 'Courier New', Courier, monospace;
+  bottom: 10px;
+  left: 45%;
+}
+
+#contact img {
+  height: 50px;
+  width: 50px;
 }
