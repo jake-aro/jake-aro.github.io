@@ -123,3 +123,8 @@ color:whitesmoke;
   height: 50px;
   width: 50px;
 }
+
+.blogs {
+  text-align: left;
+  margin: 25px 180px 25px;
+}
