@@ -139,7 +139,7 @@ color:whitesmoke;
 }
 
 p {
-  margin: 35px;
+  margin: 50px;
 }
 
 body {
@@ -148,5 +148,6 @@ body {
 }
 
 h3 {
-  margin-left:  35px;
+  margin-left:  45px;
+  margin-right: 45px;
 }
