@@ -129,13 +129,19 @@ color:whitesmoke;
   text-align: left;
   background-color: teal;
   padding: 20px;
-
+  position: absolute; 
+  top: 200px; 
+  left: 0; 
+  width: 100%; 
 }
 
 .heading {
   text-align: center;
   font-family: 'Courier New', Courier, monospace;
- 
+  position: absolute; 
+  top: 200px; 
+  left: 0; 
+  width: 100%; 
 
 }
 
