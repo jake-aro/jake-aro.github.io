@@ -128,19 +128,18 @@ color:whitesmoke;
   text-align: left;
   background-color: teal;
   padding: 20px;
-  
+  margin: 25px;
 }
 
 .heading {
   text-align: center;
   font-family: 'Courier New', Courier, monospace;
   background-color: teal;
-  padding: 50px;
+
 }
 
 p {
-  margin: 25px;
-  padding: 50px;
+  margin: 35px;
 }
 
 body {
