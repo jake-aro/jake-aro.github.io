@@ -127,15 +127,13 @@ color:whitesmoke;
 
 .blog {
   text-align: left;
-  background-color: teal;
   padding: 20px;
-
 }
 
 .heading {
   text-align: center;
   font-family: 'Courier New', Courier, monospace;
-  
+  background-color: teal;
 }
 
 p {
