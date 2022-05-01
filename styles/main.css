@@ -135,10 +135,12 @@ color:whitesmoke;
   text-align: center;
   font-family: 'Courier New', Courier, monospace;
   background-color: teal;
+  padding: 50px;
 }
 
 p {
   margin: 25px;
+  padding: 50px;
 }
 
 body {
