@@ -152,8 +152,15 @@ h3 {
 
 img {
   margin-left: 50px;
+  padding-bottom: 30px;
+  padding-top: 30px;
 }
 
 li {
   margin-left: 35px;
+}
+
+h2 {
+  margin-left:  35px;
+  margin-right: 35px;
 }
